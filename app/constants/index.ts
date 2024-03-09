@@ -28,3 +28,9 @@ export const navLinks = [
   { route: '/profile', label: 'Profile', icon: '/assets/icons/profile.svg' },
   { route: '/credits', label: 'Buy Credits', icon: '/assets/icons/bag.svg' },
 ];
+
+export const eventTypes = {
+  created: 'user_created',
+  updated: 'user_updated',
+  deleted: 'user_deleted',
+};
